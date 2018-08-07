@@ -1,0 +1,572 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5B09D0C21C27261000E3BCB7 /* FetchedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B09D0C11C27261000E3BCB7 /* FetchedTableViewCell.swift */; };
+		5B145A841BEEB66B00BDB2DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B145A831BEEB66B00BDB2DB /* AppDelegate.swift */; };
+		5B145A891BEEB66B00BDB2DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B145A871BEEB66B00BDB2DB /* Main.storyboard */; };
+		5B145A8C1BEEB66B00BDB2DB /* Shopper_Shopper.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5B145A8A1BEEB66B00BDB2DB /* Shopper_Shopper.xcdatamodeld */; };
+		5B145A8E1BEEB66B00BDB2DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B145A8D1BEEB66B00BDB2DB /* Assets.xcassets */; };
+		5B145A911BEEB66B00BDB2DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B145A8F1BEEB66B00BDB2DB /* LaunchScreen.storyboard */; };
+		5B145A9C1BEEB66B00BDB2DB /* Shopper_ShopperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B145A9B1BEEB66B00BDB2DB /* Shopper_ShopperTests.swift */; };
+		5B145AA71BEEB66B00BDB2DB /* Shopper_ShopperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B145AA61BEEB66B00BDB2DB /* Shopper_ShopperUITests.swift */; };
+		5B145AB51BEEB77C00BDB2DB /* RootTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B145AB41BEEB77C00BDB2DB /* RootTableViewController.swift */; };
+		5B1A2DBC1BF06A7C006B3C43 /* CreateNewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1A2DBB1BF06A7C006B3C43 /* CreateNewViewController.swift */; };
+		5B1A2DC01BF0A987006B3C43 /* ShoppingListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1A2DBF1BF0A987006B3C43 /* ShoppingListTableViewController.swift */; };
+		5B2D0FDA1CC5E28C008FB3E6 /* CardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2D0FD91CC5E28C008FB3E6 /* CardsViewController.swift */; };
+		5B2D0FFA1CC60842008FB3E6 /* AddNewBarcodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2D0FF91CC60842008FB3E6 /* AddNewBarcodeViewController.swift */; };
+		5B2D0FFC1CC610E5008FB3E6 /* AddNewQRCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2D0FFB1CC610E5008FB3E6 /* AddNewQRCodeViewController.swift */; };
+		5B2D10001CC63839008FB3E6 /* AddNewCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2D0FFF1CC63839008FB3E6 /* AddNewCodeViewController.swift */; };
+		5B2D10041CC63B51008FB3E6 /* CardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2D10031CC63B51008FB3E6 /* CardTableViewCell.swift */; };
+		5BFC16581C1DFBEF00FB9EE1 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BFC16571C1DFBEF00FB9EE1 /* TableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5B145A981BEEB66B00BDB2DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B145A781BEEB66B00BDB2DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B145A7F1BEEB66B00BDB2DB;
+			remoteInfo = "Shopper Shopper";
+		};
+		5B145AA31BEEB66B00BDB2DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B145A781BEEB66B00BDB2DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B145A7F1BEEB66B00BDB2DB;
+			remoteInfo = "Shopper Shopper";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5B09D0C11C27261000E3BCB7 /* FetchedTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FetchedTableViewCell.swift; sourceTree = "<group>"; };
+		5B145A801BEEB66B00BDB2DB /* Shopper Shopper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Shopper Shopper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B145A831BEEB66B00BDB2DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5B145A881BEEB66B00BDB2DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5B145A8B1BEEB66B00BDB2DB /* Shopper_Shopper.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Shopper_Shopper.xcdatamodel; sourceTree = "<group>"; };
+		5B145A8D1BEEB66B00BDB2DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5B145A901BEEB66B00BDB2DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5B145A921BEEB66B00BDB2DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B145A971BEEB66B00BDB2DB /* Shopper ShopperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Shopper ShopperTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B145A9B1BEEB66B00BDB2DB /* Shopper_ShopperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shopper_ShopperTests.swift; sourceTree = "<group>"; };
+		5B145A9D1BEEB66B00BDB2DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B145AA21BEEB66B00BDB2DB /* Shopper ShopperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Shopper ShopperUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B145AA61BEEB66B00BDB2DB /* Shopper_ShopperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shopper_ShopperUITests.swift; sourceTree = "<group>"; };
+		5B145AA81BEEB66B00BDB2DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B145AB41BEEB77C00BDB2DB /* RootTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootTableViewController.swift; sourceTree = "<group>"; };
+		5B1A2DBB1BF06A7C006B3C43 /* CreateNewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CreateNewViewController.swift; path = ../CreateNewViewController.swift; sourceTree = "<group>"; };
+		5B1A2DBF1BF0A987006B3C43 /* ShoppingListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ShoppingListTableViewController.swift; path = ../ShoppingListTableViewController.swift; sourceTree = "<group>"; };
+		5B2D0FD91CC5E28C008FB3E6 /* CardsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardsViewController.swift; sourceTree = "<group>"; };
+		5B2D0FF91CC60842008FB3E6 /* AddNewBarcodeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddNewBarcodeViewController.swift; sourceTree = "<group>"; };
+		5B2D0FFB1CC610E5008FB3E6 /* AddNewQRCodeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddNewQRCodeViewController.swift; sourceTree = "<group>"; };
+		5B2D0FFF1CC63839008FB3E6 /* AddNewCodeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddNewCodeViewController.swift; sourceTree = "<group>"; };
+		5B2D10031CC63B51008FB3E6 /* CardTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardTableViewCell.swift; sourceTree = "<group>"; };
+		5BFC16571C1DFBEF00FB9EE1 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B145A7D1BEEB66B00BDB2DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B145A941BEEB66B00BDB2DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B145A9F1BEEB66B00BDB2DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B145A771BEEB66B00BDB2DB = {
+			isa = PBXGroup;
+			children = (
+				5B145A821BEEB66B00BDB2DB /* Shopper Shopper */,
+				5B145A9A1BEEB66B00BDB2DB /* Shopper ShopperTests */,
+				5B145AA51BEEB66B00BDB2DB /* Shopper ShopperUITests */,
+				5B145A811BEEB66B00BDB2DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5B145A811BEEB66B00BDB2DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B145A801BEEB66B00BDB2DB /* Shopper Shopper.app */,
+				5B145A971BEEB66B00BDB2DB /* Shopper ShopperTests.xctest */,
+				5B145AA21BEEB66B00BDB2DB /* Shopper ShopperUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5B145A821BEEB66B00BDB2DB /* Shopper Shopper */ = {
+			isa = PBXGroup;
+			children = (
+				5B145A831BEEB66B00BDB2DB /* AppDelegate.swift */,
+				5B145AB41BEEB77C00BDB2DB /* RootTableViewController.swift */,
+				5B1A2DBB1BF06A7C006B3C43 /* CreateNewViewController.swift */,
+				5B145A871BEEB66B00BDB2DB /* Main.storyboard */,
+				5B1A2DBF1BF0A987006B3C43 /* ShoppingListTableViewController.swift */,
+				5B145A8D1BEEB66B00BDB2DB /* Assets.xcassets */,
+				5B145A8F1BEEB66B00BDB2DB /* LaunchScreen.storyboard */,
+				5B145A921BEEB66B00BDB2DB /* Info.plist */,
+				5B145A8A1BEEB66B00BDB2DB /* Shopper_Shopper.xcdatamodeld */,
+				5BFC16571C1DFBEF00FB9EE1 /* TableViewCell.swift */,
+				5B09D0C11C27261000E3BCB7 /* FetchedTableViewCell.swift */,
+				5B2D0FD91CC5E28C008FB3E6 /* CardsViewController.swift */,
+				5B2D0FF91CC60842008FB3E6 /* AddNewBarcodeViewController.swift */,
+				5B2D0FFB1CC610E5008FB3E6 /* AddNewQRCodeViewController.swift */,
+				5B2D0FFF1CC63839008FB3E6 /* AddNewCodeViewController.swift */,
+				5B2D10031CC63B51008FB3E6 /* CardTableViewCell.swift */,
+			);
+			path = "Shopper Shopper";
+			sourceTree = "<group>";
+		};
+		5B145A9A1BEEB66B00BDB2DB /* Shopper ShopperTests */ = {
+			isa = PBXGroup;
+			children = (
+				5B145A9B1BEEB66B00BDB2DB /* Shopper_ShopperTests.swift */,
+				5B145A9D1BEEB66B00BDB2DB /* Info.plist */,
+			);
+			path = "Shopper ShopperTests";
+			sourceTree = "<group>";
+		};
+		5B145AA51BEEB66B00BDB2DB /* Shopper ShopperUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5B145AA61BEEB66B00BDB2DB /* Shopper_ShopperUITests.swift */,
+				5B145AA81BEEB66B00BDB2DB /* Info.plist */,
+			);
+			path = "Shopper ShopperUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5B145A7F1BEEB66B00BDB2DB /* Shopper Shopper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B145AAB1BEEB66B00BDB2DB /* Build configuration list for PBXNativeTarget "Shopper Shopper" */;
+			buildPhases = (
+				5B145A7C1BEEB66B00BDB2DB /* Sources */,
+				5B145A7D1BEEB66B00BDB2DB /* Frameworks */,
+				5B145A7E1BEEB66B00BDB2DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Shopper Shopper";
+			productName = "Shopper Shopper";
+			productReference = 5B145A801BEEB66B00BDB2DB /* Shopper Shopper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5B145A961BEEB66B00BDB2DB /* Shopper ShopperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B145AAE1BEEB66B00BDB2DB /* Build configuration list for PBXNativeTarget "Shopper ShopperTests" */;
+			buildPhases = (
+				5B145A931BEEB66B00BDB2DB /* Sources */,
+				5B145A941BEEB66B00BDB2DB /* Frameworks */,
+				5B145A951BEEB66B00BDB2DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B145A991BEEB66B00BDB2DB /* PBXTargetDependency */,
+			);
+			name = "Shopper ShopperTests";
+			productName = "Shopper ShopperTests";
+			productReference = 5B145A971BEEB66B00BDB2DB /* Shopper ShopperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5B145AA11BEEB66B00BDB2DB /* Shopper ShopperUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B145AB11BEEB66B00BDB2DB /* Build configuration list for PBXNativeTarget "Shopper ShopperUITests" */;
+			buildPhases = (
+				5B145A9E1BEEB66B00BDB2DB /* Sources */,
+				5B145A9F1BEEB66B00BDB2DB /* Frameworks */,
+				5B145AA01BEEB66B00BDB2DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B145AA41BEEB66B00BDB2DB /* PBXTargetDependency */,
+			);
+			name = "Shopper ShopperUITests";
+			productName = "Shopper ShopperUITests";
+			productReference = 5B145AA21BEEB66B00BDB2DB /* Shopper ShopperUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5B145A781BEEB66B00BDB2DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Ode To Code";
+				TargetAttributes = {
+					5B145A7F1BEEB66B00BDB2DB = {
+						CreatedOnToolsVersion = 7.1;
+						LastSwiftMigration = 0810;
+					};
+					5B145A961BEEB66B00BDB2DB = {
+						CreatedOnToolsVersion = 7.1;
+						LastSwiftMigration = 0810;
+						TestTargetID = 5B145A7F1BEEB66B00BDB2DB;
+					};
+					5B145AA11BEEB66B00BDB2DB = {
+						CreatedOnToolsVersion = 7.1;
+						LastSwiftMigration = 0810;
+						TestTargetID = 5B145A7F1BEEB66B00BDB2DB;
+					};
+				};
+			};
+			buildConfigurationList = 5B145A7B1BEEB66B00BDB2DB /* Build configuration list for PBXProject "Shopper Shopper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5B145A771BEEB66B00BDB2DB;
+			productRefGroup = 5B145A811BEEB66B00BDB2DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B145A7F1BEEB66B00BDB2DB /* Shopper Shopper */,
+				5B145A961BEEB66B00BDB2DB /* Shopper ShopperTests */,
+				5B145AA11BEEB66B00BDB2DB /* Shopper ShopperUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5B145A7E1BEEB66B00BDB2DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B145A911BEEB66B00BDB2DB /* LaunchScreen.storyboard in Resources */,
+				5B145A8E1BEEB66B00BDB2DB /* Assets.xcassets in Resources */,
+				5B145A891BEEB66B00BDB2DB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B145A951BEEB66B00BDB2DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B145AA01BEEB66B00BDB2DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B145A7C1BEEB66B00BDB2DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B2D10001CC63839008FB3E6 /* AddNewCodeViewController.swift in Sources */,
+				5B2D0FDA1CC5E28C008FB3E6 /* CardsViewController.swift in Sources */,
+				5B2D0FFA1CC60842008FB3E6 /* AddNewBarcodeViewController.swift in Sources */,
+				5B1A2DC01BF0A987006B3C43 /* ShoppingListTableViewController.swift in Sources */,
+				5B09D0C21C27261000E3BCB7 /* FetchedTableViewCell.swift in Sources */,
+				5B2D0FFC1CC610E5008FB3E6 /* AddNewQRCodeViewController.swift in Sources */,
+				5B145A8C1BEEB66B00BDB2DB /* Shopper_Shopper.xcdatamodeld in Sources */,
+				5B2D10041CC63B51008FB3E6 /* CardTableViewCell.swift in Sources */,
+				5B1A2DBC1BF06A7C006B3C43 /* CreateNewViewController.swift in Sources */,
+				5BFC16581C1DFBEF00FB9EE1 /* TableViewCell.swift in Sources */,
+				5B145A841BEEB66B00BDB2DB /* AppDelegate.swift in Sources */,
+				5B145AB51BEEB77C00BDB2DB /* RootTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B145A931BEEB66B00BDB2DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B145A9C1BEEB66B00BDB2DB /* Shopper_ShopperTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B145A9E1BEEB66B00BDB2DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B145AA71BEEB66B00BDB2DB /* Shopper_ShopperUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5B145A991BEEB66B00BDB2DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B145A7F1BEEB66B00BDB2DB /* Shopper Shopper */;
+			targetProxy = 5B145A981BEEB66B00BDB2DB /* PBXContainerItemProxy */;
+		};
+		5B145AA41BEEB66B00BDB2DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B145A7F1BEEB66B00BDB2DB /* Shopper Shopper */;
+			targetProxy = 5B145AA31BEEB66B00BDB2DB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5B145A871BEEB66B00BDB2DB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B145A881BEEB66B00BDB2DB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5B145A8F1BEEB66B00BDB2DB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B145A901BEEB66B00BDB2DB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5B145AA91BEEB66B00BDB2DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5B145AAA1BEEB66B00BDB2DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5B145AAC1BEEB66B00BDB2DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Shopper Shopper/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Ode-To-Code.Shopper-Shopper";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		5B145AAD1BEEB66B00BDB2DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Shopper Shopper/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Ode-To-Code.Shopper-Shopper";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		5B145AAF1BEEB66B00BDB2DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Shopper ShopperTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Ode-To-Code.Shopper-ShopperTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shopper Shopper.app/Shopper Shopper";
+			};
+			name = Debug;
+		};
+		5B145AB01BEEB66B00BDB2DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Shopper ShopperTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Ode-To-Code.Shopper-ShopperTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shopper Shopper.app/Shopper Shopper";
+			};
+			name = Release;
+		};
+		5B145AB21BEEB66B00BDB2DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Shopper ShopperUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Ode-To-Code.Shopper-ShopperUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Shopper Shopper";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		5B145AB31BEEB66B00BDB2DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Shopper ShopperUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Ode-To-Code.Shopper-ShopperUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Shopper Shopper";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5B145A7B1BEEB66B00BDB2DB /* Build configuration list for PBXProject "Shopper Shopper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B145AA91BEEB66B00BDB2DB /* Debug */,
+				5B145AAA1BEEB66B00BDB2DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B145AAB1BEEB66B00BDB2DB /* Build configuration list for PBXNativeTarget "Shopper Shopper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B145AAC1BEEB66B00BDB2DB /* Debug */,
+				5B145AAD1BEEB66B00BDB2DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B145AAE1BEEB66B00BDB2DB /* Build configuration list for PBXNativeTarget "Shopper ShopperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B145AAF1BEEB66B00BDB2DB /* Debug */,
+				5B145AB01BEEB66B00BDB2DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B145AB11BEEB66B00BDB2DB /* Build configuration list for PBXNativeTarget "Shopper ShopperUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B145AB21BEEB66B00BDB2DB /* Debug */,
+				5B145AB31BEEB66B00BDB2DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5B145A8A1BEEB66B00BDB2DB /* Shopper_Shopper.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5B145A8B1BEEB66B00BDB2DB /* Shopper_Shopper.xcdatamodel */,
+			);
+			currentVersion = 5B145A8B1BEEB66B00BDB2DB /* Shopper_Shopper.xcdatamodel */;
+			path = Shopper_Shopper.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5B145A781BEEB66B00BDB2DB /* Project object */;
+}

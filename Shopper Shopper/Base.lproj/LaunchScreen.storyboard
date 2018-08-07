@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shopperShopperIconSplash" translatesAutoresizingMaskIntoConstraints="NO" id="Utt-C0-8y9">
+                                <rect key="frame" x="40" y="0.0" width="520" height="600"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Shopper Shopper" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8pc-e5-aII">
+                                <rect key="frame" x="0.0" y="20" width="600" height="39"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="33"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="By Ode To Code" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QMP-yX-dCq">
+                                <rect key="frame" x="0.0" y="571" width="600" height="21"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Check out like a pro!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="160-8Q-49G">
+                                <rect key="frame" x="222" y="67" width="157" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="QMP-yX-dCq" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="27A-x3-aN6"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="Utt-C0-8y9" secondAttribute="bottom" id="4E1-ge-qWZ"/>
+                            <constraint firstAttribute="trailing" secondItem="8pc-e5-aII" secondAttribute="trailing" id="ELx-yE-mKc"/>
+                            <constraint firstItem="8pc-e5-aII" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="Hl4-nc-EqC"/>
+                            <constraint firstItem="160-8Q-49G" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="NV0-g7-XZU"/>
+                            <constraint firstAttribute="trailing" secondItem="Utt-C0-8y9" secondAttribute="trailing" constant="40" id="R0n-cc-FsM"/>
+                            <constraint firstItem="Utt-C0-8y9" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" constant="40" id="RF0-sy-5f4"/>
+                            <constraint firstItem="8pc-e5-aII" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" id="TZC-ht-j8J"/>
+                            <constraint firstItem="Utt-C0-8y9" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="bMM-k9-1n3"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="QMP-yX-dCq" secondAttribute="bottom" constant="8" id="o9N-xw-AEQ"/>
+                            <constraint firstAttribute="trailing" secondItem="QMP-yX-dCq" secondAttribute="trailing" id="ufk-jG-i6S"/>
+                            <constraint firstItem="160-8Q-49G" firstAttribute="top" secondItem="8pc-e5-aII" secondAttribute="bottom" constant="8" id="zbI-or-VPl"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="shopperShopperIconSplash" width="400" height="400"/>
+    </resources>
+</document>
